@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Menu from './component/menu/menu';
-import Card from './component/card/card';
+import MesCates from './component/card/MesCates';
 
 function App() {
   return (
     <div className="App">
    <Menu />
-   <Card/>
+   <MesCates />
     </div>
   );
 }
